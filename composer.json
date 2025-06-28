@@ -28,6 +28,10 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/xolof/wp-security-goodies"
     }
   ],
   "require": {
@@ -40,7 +44,8 @@
     "roots/wordpress": "6.8.1",
     "roots/wp-config": "1.0.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
-    "wpackagist-plugin/forminator": "^1.44"
+    "wpackagist-plugin/forminator": "^1.44",
+    "xolof/wp-security-goodies": "dev-master"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
