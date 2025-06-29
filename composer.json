@@ -32,6 +32,10 @@
     {
         "type": "vcs",
         "url": "https://github.com/xolof/wp-security-goodies"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/xolof/sleipnir"
     }
   ],
   "require": {
@@ -45,7 +49,8 @@
     "roots/wp-config": "1.0.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
     "wpackagist-plugin/forminator": "^1.44",
-    "xolof/wp-security-goodies": "dev-master"
+    "xolof/wp-security-goodies": "dev-master",
+    "xolof/sleipnir": "^0.0.3"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
